@@ -1,8 +1,7 @@
 // lib/guide_screen.dart
 import 'package:flutter/material.dart';
-
+import 'package:flutter_application_donation/main_screen.dart';
 import 'package:flutter_application_donation/onboard_screen.dart';
-import 'package:flutter_application_donation/login_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class GuideScreen extends StatelessWidget {
@@ -123,7 +122,7 @@ class GuideScreen extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => OnboardScreen()),
+              MaterialPageRoute(builder: (context) => const LoginScreen()),
             );
           },
           style: ElevatedButton.styleFrom(
@@ -141,7 +140,6 @@ class GuideScreen extends StatelessWidget {
             style: GoogleFonts.inter(
               fontSize: 18,
               fontWeight: FontWeight.bold,
-              color: Colors.black,
             ),
           ),
         ),
