@@ -1,0 +1,15 @@
+.dart_tool/
+.buildlog/
+.packages
+.pub/
+.pub-cache/
+build/
+ios/Pods/
+macos/Pods/
+**/ephemeral/
+android/.gradle/
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
