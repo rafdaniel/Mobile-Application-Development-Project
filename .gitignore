@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Miscellaneous
 *.class
 *.log
@@ -43,3 +44,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+=======
+.dart_tool/
+.buildlog/
+.packages
+.pub/
+.pub-cache/
+build/
+ios/Pods/
+macos/Pods/
+**/ephemeral/
+android/.gradle/
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+>>>>>>> dcae51d49865622c1876cca6a8e5590f217df2b7
