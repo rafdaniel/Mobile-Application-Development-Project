@@ -28,7 +28,7 @@ class _MainScreenState extends State<MainScreen> {
           _buildNavigator(_browseNavigatorKey, const BrowseScreen()),
           _buildNavigator(_donateNavigatorKey, const DonateScreen()),
           _buildNavigator(_messagesNavigatorKey, const MessagesScreen()),
-          _buildNavigator(_myDevicesNavigatorKey, const Center(child: Text('My Devices'))),
+          _buildNavigator(_myDevicesNavigatorKey, const Center(child: Text('My Device'))),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -51,7 +51,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: const Color(0xFF4CAF50),
+        selectedItemColor: const Color(0xFF00796B),
         unselectedItemColor: Colors.grey[600],
         onTap: (index) {
           setState(() {
@@ -74,3 +74,4 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 }
+
