@@ -1,6 +1,6 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
-import 'package:flutter_application_donation/main_screen.dart';
+import 'package:flutter_application_donation/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'E-Collective Waste',
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const MainScreen(),
+      home: WelcomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
